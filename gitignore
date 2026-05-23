@@ -1,0 +1,12 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Cloudflare Wrangler logs and local runtime data
+.dev.vars
+.wrangler
+dist
+
+# OS files
+.DS_Store
+Thumbs.db

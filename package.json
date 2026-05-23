@@ -1,0 +1,25 @@
+{
+  "name": "bityeo-public-api",
+  "version": "1.0.0",
+  "description": "Official high-performance Public Market Data API for Bityeo Exchange ecosystem.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "bityeo",
+    "crypto-exchange",
+    "cloudflare-workers",
+    "bitcoin-api",
+    "orderbook-api",
+    "rest-api"
+  ],
+  "author": "Bityeo Core Devs",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
